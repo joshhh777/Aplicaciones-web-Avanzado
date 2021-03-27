@@ -4,15 +4,15 @@ import ReactDOM from 'react-dom'
 const Content = (props) => {
   return (
     <div>
-      <p>
+      <Part>
         {props.part1} {props.exercises1}
-      </p>
-      <p>
+      </Part>
+      <Part>
         {props.part2} {props.exercises2}
-      </p>
-      <p>
+      </Part>
+      <Part>
         {props.part3} {props.exercises3}
-      </p>
+      </Part>
     </div>
   )
 }
